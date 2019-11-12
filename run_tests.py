@@ -430,6 +430,31 @@ programs = {
        {
            "url":"https://github.com/nlohmann/json",
            "commands":[os.path.join(PARSERS_DIR, "test_nlohmann_json_20190718/bin/test_nlohmann_json")]
+       },
+   "Delphi - System.JSON":
+       {
+           "url":"https://www.embarcadero.com/products/rad-studio",
+           "commands":[os.path.join(PARSERS_DIR, "test_Delphi_SystemJSON/bin/test_SystemJSON.exe")]
+       },
+   "Delphi - SuperObject":
+       {
+           "url":"https://github.com/hgourvest/superobject",
+           "commands":[os.path.join(PARSERS_DIR, "test_Delphi_SuperObject/bin/test_SuperObject.exe")]
+       },
+   "Delphi - XSuperObject":
+       {
+           "url":"https://github.com/onryldz/x-superobject",
+           "commands":[os.path.join(PARSERS_DIR, "test_Delphi_XSuperObject/bin/test_XSuperObject.exe")]
+       },
+   "Delphi - JSONDataObjects":
+       {
+           "url":"https://github.com/ahausladen/JsonDataObjects",
+           "commands":[os.path.join(PARSERS_DIR, "test_Delphi_JSONDataObjects/bin/test_JSONDataObjects.exe")]
+       },
+   "Delphi - mORMot":
+       {
+           "url":"https://synopse.info/",
+           "commands":[os.path.join(PARSERS_DIR, "test_Delphi_mORMot/bin/test_mORMot.exe")]
        }
 }
 
