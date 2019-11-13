@@ -455,6 +455,11 @@ programs = {
        {
            "url":"https://synopse.info/",
            "commands":[os.path.join(PARSERS_DIR, "test_Delphi_mORMot/bin/test_mORMot.exe")]
+       },
+   "Delphi - Chimera":
+       {
+           "url":"https://bitbucket.org/sivv/chimera/src/develop/",
+           "commands":[os.path.join(PARSERS_DIR, "test_Delphi_Chimera/bin/test_Chimera.exe")]
        }
 }
 
