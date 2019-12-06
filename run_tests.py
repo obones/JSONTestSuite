@@ -460,6 +460,11 @@ programs = {
        {
            "url":"https://bitbucket.org/sivv/chimera/src/develop/",
            "commands":[os.path.join(PARSERS_DIR, "test_Delphi_Chimera/bin/test_Chimera.exe")]
+       },
+   "Delphi - pasjson":
+       {
+           "url":"https://github.com/BeRo1985/pasjson",
+           "commands":[os.path.join(PARSERS_DIR, "test_Delphi_pasjson/bin/test_pasjson.exe")]
        }
 }
 
