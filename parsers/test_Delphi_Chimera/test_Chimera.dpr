@@ -36,6 +36,8 @@ begin
           ExitCode := 1;
         on EChimeraException do
           ExitCode := 1;
+        on EParserError do
+          ExitCode := 1;
       end;
     finally
       Content.Free;
